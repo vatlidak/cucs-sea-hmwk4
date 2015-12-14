@@ -13,6 +13,6 @@ struct passwd *getpwuid(uid_t uid)
 	
 	tmp = calloc(1, sizeof( struct passwd));
 	tmp->pw_name = calloc(100, sizeof(char));
-	strcpy(tmp->pw_name, "vatlidak");
+	strcpy(tmp->pw_name, "smb");
 	return tmp;
 }
